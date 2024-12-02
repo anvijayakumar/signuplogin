@@ -17,14 +17,12 @@ Technologies Used
 
 API Endpoints
 Authentication
-Method	    Endpoint	    Description
-POST	      /signup	      Register a new user
-POST	      /login	      Authenticate a user
+POST /signup: Register a new user.
+POST /login: Authenticate a user.
 
 User Management
-Method	    Endpoint	                    Description
-GET	        /api/v1/user/get	            Get all users
-GET	        /api/v1/user/get/{id}	        Get user by ID
-POST	      /api/v1/user/create	          Create a new user
-PUT	        /api/v1/user/update/{id}	    Update user details
-DELETE	    /api/v1/user/delete/{id}	    Delete a user
+GET /api/v1/user/get: Get all users.
+GET /api/v1/user/get/{id}: Get user by ID.
+POST /api/v1/user/create: Create a new user.
+PUT /api/v1/user/update/{id}: Update user details.
+DELETE /api/v1/user/delete/{id}: Delete a user.
